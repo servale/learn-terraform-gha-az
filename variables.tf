@@ -17,6 +17,7 @@ variable "primary_location" {
 variable "application_name" {
   type        = string
   description = "Application name for resource naming"
+  default     = "ghatest"
 }
 
 variable "tags" {
